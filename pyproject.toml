@@ -1,0 +1,11 @@
+[project]
+name = "daguerrebot"
+version = "0.1.0"
+description = "Receive and save images via Telegram bot"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pillow>=11.3.0",
+    "python-dotenv>=1.0.0",
+    "python-telegram-bot>=22.4",
+]
