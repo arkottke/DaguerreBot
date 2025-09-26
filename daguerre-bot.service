@@ -4,9 +4,9 @@ After=network.target
 
 [Service]
 Type=simple
-User=pi
-WorkingDirectory=/home/pi
-ExecStart=/usr/bin/python3 /home/pi/image_bot.py
+User=albert
+WorkingDirectory=/home/albert/Documents/programs/DaguerreBot
+ExecStart=/home/albert/Documents/programs/DaguerreBot/.venv/bin/python daguerre_bot.py
 Restart=always
 RestartSec=10
 
